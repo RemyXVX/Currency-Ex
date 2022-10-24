@@ -20,7 +20,7 @@
 _This project will display the use of an API that will allow the user to exchange currency_
 
 ## Webpage
-* https://github.com/RemyXVX/Currency-Exchange
+* hhttps://github.com/RemyXVX/Currency-Ex
 
 ## Setup/Installation Requirements
 * _Chrome web browser for best compatiblity_
@@ -35,7 +35,7 @@ _This project will display the use of an API that will allow the user to exchang
 
 * _From there download repo for *Currency Exchange*_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Copy here](https://github.com/RemyXVX/Currency-Exchange)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Copy here](https://github.com/RemyXVX/Currency-Ex)
 
 ## Step by step breakdown on how to run application: ##
 <br>
@@ -43,7 +43,7 @@ _This project will display the use of an API that will allow the user to exchang
 **copy by running:**
 
 ```
-git clone https://github.com/RemyXVX/Currency-Exchange
+git clone https://github.com/RemyXVX/Currency-Ex.git
 ````
 **I would recommend also setting up work envirnoment after cloning by:**
 ```
