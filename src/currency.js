@@ -1,17 +1,16 @@
 export default class Currency {
-  static async exchangeRate(dollars) {
-    const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`)
-    .then(function(response) {
+  static async exchangeRate(currencyOne, currencyTwo, money) {
+    try {
+      const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`)
+      const jsonResponse = await response.json();
       if(!response.ok) {
-        const errorMessage = `${response.status} ${response.statusText}`;
+        const errorMessage = `${response.status} ${response.statusText} ${jsonResponse.message}`;
         throw new Error(errorMessage);
-      } else {
-        return package.json();
-      }
-    })
-    .catch(function(error) {
+      } 
+      return jsonResponse;
+    } catch(error) {
       return error;
-    });
+    };
   }
 }
 
