@@ -14,7 +14,6 @@
 * GitBash
 * Node.JS
 * JSON
-* Jest
 
 ## Description
 _This project will display the use of an API that will allow the user to exchange currency_
@@ -52,19 +51,6 @@ npm init -y
 **then:**
 ```
 npm install
-```
-**afterwards:**
-```
-npm run build
-```
-**After the setup, you can then run any test and make edits with:**
-```
-npm run test
-```
-**That way you can check to see if the lines of code can pass the test. Incase of any errors 
-<br>that may appear, it best pratice to run lint. (Will go line for line for errors that may appear)**
-```
-npm run lint
 ```
 
 ## Known Bugs
